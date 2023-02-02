@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background:black;
+}
+
+.seta{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 15px   ;
+    color: white;   
+}
+
+.seta:hover{
+    color: rgb(56, 56, 56);
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    width: min(1200px, 90%);
+    display: flex;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+.textos{
+    display: block;
+    color: white;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.precos{
+    text-align: center;
+}
+
+.preco-desconto{
+    margin-left: 50px;
+    font-weight: bold;
+    color: green;
+    font-size: 25px;
+}
+
+.preco-normal{
+    text-decoration: line-through;
+    font-weight: bold;
+    color: red;
+    font-size: 25px; 
+}
+
+.quantidade{
+    margin-top: 15px;
+}
+
+.tamanho{
+    margin-top: 15px;
+}
+
+.subs{
+    font-size: 20px; 
+    font-weight: 500;
+}
+
+@media(max-width: 1000px){
+    .container{
+        flex-direction: column;
+    }
+}

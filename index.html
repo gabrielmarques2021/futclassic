@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Prova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--NavBar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img src="img/logo.png" alt="" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+   
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ligas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                  <li><a class="dropdown-item" href="#alema">Campeonato Alemão</a></li>
+                  <li><a class="dropdown-item" href="#brasil">Campeonato Brasileiro</a></li>
+                  <li><a class="dropdown-item" href="#espanhol">Campeonato Espanhol</a></li>
+                  <li><a class="dropdown-item" href="#ingles">Campeonato Inglês</a></li>
+                  <li><a class="dropdown-item" href="#italiano">Campeonato Italiano</a></li>
+
+                    
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Seleções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#america">América Latina</a></li>
+                  <li><a class="dropdown-item" href="#europa">Europa</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Retrôs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                  <li><a class="dropdown-item" href="#selecoes">Seleções</a></li>
+                  <li><a class="dropdown-item" href="#timesi">Times Interacionais</a></li>
+                  <li><a class="dropdown-item" href="#timesn">Times Nacionas</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Conjuntos de Treinos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                  <li><a class="dropdown-item" href="#treinose">Seleções</a></li>
+                  <li><a class="dropdown-item" href="#treinoti">Times Interacionais</a></li>
+                  <li><a class="dropdown-item" href="#treinotn">Times Nacionas</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Corta Vento
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                  <li><a class="dropdown-item" href="#cortain">Times Interacionais</a></li>
+                  <li><a class="dropdown-item" href="#cortana">Times Nacionas</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#nba">NBA</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#formulario">Contato</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <!--NavBar-->
+
+      <!--Banner-->
+      <div class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <a href="#brasil"><img src="img/banners/banner 1.webp" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item">
+             <a href="#timesn"><img src="img/banners/banner 2.webp" class="d-block w-100" alt="..."></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>  
+ <!--Banner-->
+
+      <p class="sub">Temporada 2021/2022</p>
+
+ <!--Bundesliga-->
+    <p id="alema" class="ligas">Campeonato Alemão</p>
+
+    <main>
+      
+      <div class="card mt-3" style="width: 20rem;">
+        <div class="imagens">
+          <img src="img/Ligas/Bundesliga/Bayern/frente.jpg" class="card-img-top" alt="...">
+        </div>
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa I Bayern de Munique 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+      
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Dortmund/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa III Borussia Dortmund 20/21</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+          
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Monchenblabla/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Borussia I Monchengladbach 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+      
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/FC Koln/frente.png" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Colônia 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Frankfurt/frente.png" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa I Eintracht Frankfurt 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Nuremberg/frente.webp" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisas Nuremberg Edição Especial</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Leipzig/frente.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa II RB Leipzig 21/22 </h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Schalke 04/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa I Schalke 04 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Ligas/Bundesliga/Werder Bremen/frente.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa I Werder Bremen 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </div>
+      
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Bundesliga/Wolfsburgo/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Wolfsburg 21/22 </h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+  <!--Bundesliga-->
+
+  <!--Brasileirão-->
+  <p id="brasil" class="ligas">Campeonato Brasileiro</p>
+
+  <main>
+    <a href="galo.html">
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/Galo/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa 113 Anos Atlético Mineiro</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </a>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/curintia/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Corinthians 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/cruzeiro/fente.jpg">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Cruzeiro 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/flamengo/frente.png" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa III Flamengo 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/fluzão/fente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Fluminense 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/Gremio/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Grêmio 21/22</h5>
+
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/inter/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Internacional II 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/porco/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Palmeiras I 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/santos/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Santos 21/22</h5>  
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Brasileirão/sao paulo/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I São Paulo 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+  <!--Brasileirão-->
+
+  <!--La Liga-->
+  <p id="espanhol" class="ligas">Campeonato Espanhol</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/alavés/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa III Alavés 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/atletico/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Atlético de Madrid 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/barcelon/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa III Barcelona 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/celta/frente.webp" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa II Celta de Vigo 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/espanyol/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa II Espanyol 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/osasuna/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa II Osasuna 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/real betis/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Real Betis 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/real madrid/frente.jpg" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Real Madrid 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/real sociedad/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Real Sociedad 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/La Liga/valencia/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Valencia 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+  <!--La Liga-->
+
+  <!--Premier Ligue-->
+  <p id="ingles" class="ligas">Campeonato Inglês</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/arsenal/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Arsenal 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/aston villa/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Aston Villa 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/chelsea/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa III Chelsea 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/everton/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Everton 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/leicester/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Leicester City 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/liverpool/frene.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Liverpool 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/m city/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Manchester City 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/m united/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Manchester United 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/new castle/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa III New Castle 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Premier Ligue/tottenham/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Tottenham 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+  <!--Premier Ligue-->
+
+  <!--Série A-->
+  <p id="italiano" class="ligas">Campeonato Italiano</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/atalanta/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Atalanta 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/bologna/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Bologna 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/fiorentina/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Fiorentina 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/inter/frente.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa II Internazionale 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/juve/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa II Juventus 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/lazio/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Lazio 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/milan/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Milan 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/napoli/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa III Napoli 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/roma/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Roma 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Ligas/Serie A/torino/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Torino 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+  <!--Série A-->
+
+  <!--Camisas de Seleções-->
+  <p class="sub">Seleções</p>
+
+  <p id="america" class="ligas">América Latina</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/argentina/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Argentina 22/23</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/brasil/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Brasil 22/23</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/canadian/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Canadá 22/23</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/chile/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Chile 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/colombia/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Colômbia 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/eua/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Estados Unidos 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/mexico/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa México 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/paraguas/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Paraguai 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/peru/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Peru 22/23</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/america/uruguai/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Uruguai 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+
+  <p id="europa" class="ligas">Europa</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/alemanha/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Alemanha 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/austria/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Áustria 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/espanha/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Espanha 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/frança/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa França 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/holanda/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Holanda 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/inglaterra/fente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Inglaterra 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/islandia/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Islândia 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/italia/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Versace Itália 21/22</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/portugal/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Portugal 22/23</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Seleções/europa/ucrania/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Ucrânia 20/21</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+  <!--Camisas de Seleções-->
+
+  <!--Camisas Retrôs-->
+  <p class="sub">Retrôs</p>
+
+  <p id="selecoes" class="ligas">Seleções</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/alemanha/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Alemanha 1990</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/argentina/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Argentina 1998</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/brasil/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Brasil 1998</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>  
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/espanha/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Espanha 1996</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/frança/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa França 2006</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/holanda/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-boy">
+          <h5 class="card-title text-center mt-3">Camisa Holanda 1988</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/inglaterra/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Inglaterra 2000</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/italia/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Itália 1994</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/japa/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Japão 2000</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Seleça/portugal/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa Portugal 2002</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+
+  <p id="timesi" class="ligas">Times Internacionais</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/arsenal/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Arsenal 85/86</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/barcelona/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Barcelona 05/06</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/bayern munich/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Bayern de Munique 95/96</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/bvb/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Borussia Dortmund 88/89</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/chelsea/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa I Chelsea 12/13</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/juventus/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Juventus 02/03</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/man united/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Manchester United 06/07</h5>                                                                                                         
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/milan/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Milan 95/96</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/real madrid/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Real Madrid 96/97</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times Gringa/tottenham/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Tottenham 08/09</h5>
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+      </div>
+    </div>
+  </main>
+
+  <p id="timesn" class="ligas">Times Nacionais</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/atletico mineiro/frente.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Atlético Mineiro 12/13</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/botafogo/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Botafogo 94/95</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/curintia/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Corinthians 09/10</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/flamengo/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Flamengo 90/91</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/gremio/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Grêmio 99/00</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/inter/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Internacional 05/06</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/palmeiras/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Palmeiras 93/94</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/santos/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Santos 97/98</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/são paulo/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa São Paulo 92/93</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Retrôs/Times BR/vasco/frente.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Camisa Vasco 99/00</h5>
+        <span class="preco-normal">R$ 199,99</span> 
+        <span class="preco-desconto">R$ 69,99</span>
+      </div>
+    </div>
+  </main>
+  <!--Camisas Retrôs-->
+
+  <!--Conjunto de Treino-->
+  <p id="treino" class="sub">Conjunto de Treino</p>
+
+  <p id="treinose" class="ligas">Seleções</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/alemanha.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Alemanha</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/bélgica.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Bélgica</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/brasil.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Brasil</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/croácia.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Croácia</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/espanha.webp" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Espanha</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <a href="ctf">
+        <img src="img/Conjuntos/conjunto seleções/frança.webp" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino França</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </a>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/itália.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Itália</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/nigeria.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Nigéria</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/portugal.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Portugal</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto seleções/servis.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Sérvia</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+  </main>
+
+  <p id="treinoti" class="ligas">Times Internacionais</p>
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/Conjuntos/conjunto gringa/bvb.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Conjunto de Treino Arsenal</h5>
+        <span class="preco-normal">R$ 699,99</span> 
+        <span class="preco-desconto">R$ 349,99</span>
+      </div>
+    </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/barça.png">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Barcelona</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/chelsea.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Chelsea</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/inter.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Internazionale</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/juventus.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Juventus</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/liverpool.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Liverpool</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/milan.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Milan</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/psg.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Paris Saint-Germain</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/real madrid.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Real Madrid</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto gringa/tottenham.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Tottenham</h5>
+      <span class="preco-normal">R$ 699,99</span> 
+      <span class="preco-desconto">R$ 349,99</span>
+    </div>
+  </div>
+</main>
+
+<p id="treinotn" class="ligas">Times Nacionais</p>
+
+<main>
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/curintia.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Corinthians</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+
+  
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/cruzeiro.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Cruzeiro</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/flamengo 2.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Flamengo</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+  
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/flamengo.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Flamengo</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+  
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/flamengo 3.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Flamengo</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/internacional 2.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Internacional</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+  
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/internacional 3.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Internacional</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/internacional.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Internacional</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/palmeiras.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino Palmeiras</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+
+  <div class="card mt-3" style="width: 20rem;">
+    <img src="img/Conjuntos/conjunto nacionais/sao paulo.png" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+      <h5 class="card-title text-center mt-3">Conjunto de Treino São Paulo</h5>
+      <span class="preco-normal">R$ 399,99</span> 
+      <span class="preco-desconto">R$ 179,99</span>
+    </div>
+  </div>
+</main> 
+  <!--Conjunto de Treino-->
+
+    <!--Corta Vento-->
+    <p id="corta" class="sub">Corta Vento</p>
+
+    <p id="cortain" class="ligas">Times Interncionais</p>
+    <main>
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/arsenal/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Arsenal</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/barça/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Barcelona</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/bayer/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Bayern Munique</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/liverpool/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Liverpool</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/m city/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">   
+          <h5 class="card-title text-center mt-3">Corta Vento Manchester City</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>  
+      </div>  
+      
+      <div class="card mt-3" style="width: 20rem;">   
+        <img src="img/Corta Vento/gringa/m united/frente.jpg" class="card-img-top" alt="...">   
+        
+        <div class="card-body">   
+          <h5 class="card-title text-center mt-3">Corta Vento Manchester United</h5>  
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>  
+        </div>  
+      </div>  
+        
+      <div class="card mt-3" style="width: 20rem;">   
+        <img src="img/Corta Vento/gringa/milan/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Milan</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/psg/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Paris Saint-Germain</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/real madrid/frente.webp" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Real Madrid</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/gringa/tottenham/frente.jpg " class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Tottenham </h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+    </main>
+    
+    
+    <p id="cortana" class="ligas">Times Nacionais</p>
+    <main>
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/curintia/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Corinthians</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/flamengo 2/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Flamengo</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/flamengo/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Flamengo</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/gremio/frente.webp" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Grêmio</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/inter 2/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">   
+          <h5 class="card-title text-center mt-3">Corta Vento Internacional</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>  
+      </div>  
+      
+      <div class="card mt-3" style="width: 20rem;">   
+        <img src="img/Corta Vento/Nacional/inter/frente.jpg" class="card-img-top" alt="...">   
+        
+        <div class="card-body">   
+          <h5 class="card-title text-center mt-3">Corta Vento Internacional</h5>  
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>  
+        </div>  
+      </div>  
+        
+      <div class="card mt-3" style="width: 20rem;">   
+        <img src="img/Corta Vento/Nacional/palmeiras/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Palmeiras</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/santos/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento Santos</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/sao paulo 2/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento São Paulo</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+  
+      <div class="card mt-3" style="width: 20rem;">
+        <img src="img/Corta Vento/Nacional/sao paulo/frente.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Corta Vento São Paulo</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 189,99</span>
+        </div>
+      </div>
+    </main>
+    
+    <!--Corta Vento-->
+  
+  <!--NBA-->
+  <p id="nba" class="sub">NBA</p>
+
+  <main>
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/Boston Celtics.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Boston Celtics</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/chicago bulls.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Chicago Bulls</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/cleveland cavaliers.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Cleveland Cavaliers</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/golden state warriors.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Golden State Warriors</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/houston rockets.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Houston Rockets</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/los angeles lakers.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Los Angeles Lakers</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+    
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/miami heat.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Miami Heat</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/new york knicks.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata New York Knicks</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/Orlando Magic.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Orlando Magic</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+
+    <div class="card mt-3" style="width: 20rem;">
+      <img src="img/NBA/sacramento kings.png" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mt-3">Regata Sacramento Kings</h5>
+        <span class="preco-normal">R$ 299,99</span> 
+        <span class="preco-desconto">R$ 89,99</span>
+      </div>
+    </div>
+  </main>
+  <!--NBA-->
+
+  <!--Formulário-->
+  <p class="ligas">Cadastre-se já</p>
+
+     <div id="formulario" class="container mt-4">
+      <form class="row g-3">
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Nome Completo</label>
+          <input type="text" class="form-control" id="inputEmail4" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua, Número, Bairro" required>
+        </div>
+        <div class="col-6">
+          <label for="inputAddress2" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="inputAddress2" placeholder="usuario@dominio.com" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label" requiredd>Estado</label>
+          <select id="inputState" class="form-select">
+            <option></option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <a href="index.html"> <button type="submit" class="btn btn-primary">Enviar</button></a>
+        </div>
+      </form>
+    </div>
+    <!--Formulário-->
+</body>
+</html>

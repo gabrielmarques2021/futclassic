@@ -1,0 +1,55 @@
+  <div class="card mt-3" style="width: 20rem;">
+        <a href="bayern.html">
+        <img src="img/Ligas/Bundesliga/Union/frente.webp" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title text-center mt-3">Camisa I Union Berlin 21/22</h5>
+          <span class="preco-normal">R$ 399,99</span> 
+          <span class="preco-desconto">R$ 179,99</span>
+        </div>
+      </a>
+      </div>
+
+      <div class="textos">
+        <p class="name">
+            Camisa 113 Anos Atlético Mineiro
+        </p>
+        
+        <div class="precos">
+        <span class="preco-normal">R$ 399,99</span> 
+        <span class="preco-desconto">R$ 179,99</span>
+        </div>
+        
+        <div class="tamanho">
+        <div class="tano">Tamanho:</div> 
+        
+        <div class="valores">
+          <select>
+            <option selected>Selecione o seu tamanho:</option>
+            <option value="1">P</option>
+            <option value="2">M</option>
+            <option value="3">G</option>
+            <option value="4">GG</option>
+          </select>
+        </div>
+        </div>
+        
+        
+        
+        <div class="quantidade">
+          <div class="quantos">Quantidade:</div>
+        
+          <div class="">
+          <input type="number" min="1" value="1">
+        </div>
+        </div>
+        
+        <div class="personal">
+          <div class="nomem">Personalização:</div>
+        
+          <div class="dez">
+        
+          </div>
+        </div>
+        </div>
+        </div>

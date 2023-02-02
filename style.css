@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.logo{
+    width: min(70px,10%);
+}
+
+body{
+    background: black;
+}
+
+/*Banner*/
+
+.banner{
+    text-align: center;
+    width: fixed;
+}
+
+.sub{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: rgb(1, 69, 106);
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+/*Card*/
+
+.ligas{
+    margin-top: 30px;
+    background: black;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+main{
+    width:  min(120rem, 90%);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+.card{
+    cursor: pointer;
+    height: 27rem;
+    background: black   ;
+}
+
+.card-title{
+    font-size: 18px;
+    color: white;
+}
+
+ main div .preco-normal{
+    color: red;
+    font-weight: bold;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+main div .preco-desconto{
+    color: green;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(82, 82, 82);
+}
+
+.container{
+    color: white;
+}
